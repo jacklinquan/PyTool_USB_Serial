@@ -2,6 +2,7 @@
  Android App for USB serial with Python script capability.
 
 Please try the free version on Google Play: [PyTool USB Serial Free](https://play.google.com/store/apps/details?id=com.quanlin.pytoolusbserialfree).
+
 And here is the paid version on Google Play: [PyTool USB Serial](https://play.google.com/store/apps/details?id=com.quanlin.pytoolusbserial).
 
 PyTool USB Serial is a great tool for USB serial developing, debugging and monitoring.
@@ -19,14 +20,13 @@ There are script examples for quick start. Just copy and paste one of them to tr
 There is also a handy USB serial terminal for general use.
 
 It supports main stream USB serial drivers, including:
-FTDI driver
-CDC ACM driver
-CP210x driver
-CH34x driver
-PL2303 driver
+* FTDI driver
+* CDC ACM driver
+* CP210x driver
+* CH34x driver
+* PL2303 driver
 
-Script General Guide
-====================
+## Script General Guide
 * The Python version used in this app is 3.7.
 
 * This app is not designed as script editor although script can be edited in the script field.
