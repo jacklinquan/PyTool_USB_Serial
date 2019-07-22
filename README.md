@@ -51,8 +51,10 @@ If custom function is needed, pass all the references as arguments of the functi
 
 * Use `app.log_file(text)` to save a log file in storage.
 The log file is located here [Storage Directory]/PyToolUSBSerial/log_[UTC Timestamp].txt.
+```
 text (str): Text Content
 return (str): Full File Path
+```
 
 Here is one script example from this app:
 ```Python
