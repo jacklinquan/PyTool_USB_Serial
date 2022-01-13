@@ -18,12 +18,12 @@ To make `PyTool USB Serial v0.8` work with BBC micro:bit, there is a workaround.
 * Connect BBC micro:bit with the Android device through USB On-The-Go cable.
 
 * Open `PyTool USB Serial v0.8` and press `Script` tab.
-  Do NOT connect BBC micro:bit now.
+  Do NOT `Scan USB Devices` now.
 
 * Press `Load` button and load `microbit_workaround.py` from the storage.
   In my case, the path is `sdcard/PyToolUSBSerial/microbit_workaround.py`.
 
-* Run this script and in the output it should show the version strings of both old and new versions:
+* Run this script, and in the output it should show the version strings of both old and new versions:
   ```
   0.3.0
   0.4.0
