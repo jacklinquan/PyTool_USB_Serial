@@ -26,4 +26,4 @@ while(app.running_script):
         # Data represented in text.
         data_txt = decode(data_rcv, 'utf_8', 'ignore')
         # Display received data along with old data.
-        app.set_output(app.get_output() + data_hex + '\n' + data_txt + '\n\n')
+        app.print_text(data_hex + '\n' + data_txt + '\n\n')
